@@ -1,2 +1,4 @@
 /build64*
 /blade-bin
+cscope*
+tags

@@ -1,6 +1,4 @@
 // https://leetcode.com/problems/longest-common-subsequence/
-//
-//
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -25,12 +23,8 @@ int longestCommonSubsequence(string text1, string text2) {
     for (int j = 1; j <= length2; ++j) {
       if (text1[i - 1] == text2[j - 1]) {
         lcs[i][j] = 1 + lcs[i - 1][j - 1];
-        std::cout << __LINE__ << std::endl;
-        std::cout << "lcs[i][j]" << lcs[i][j] << std::endl;
       } else {
         lcs[i][j] = std::max(lcs[i - 1][j], lcs[i][j - 1]);
-        std::cout << __LINE__ << std::endl;
-        std::cout << "lcs[i][j]" << lcs[i][j] << std::endl;
       }
     }
   }

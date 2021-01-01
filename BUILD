@@ -12,6 +12,10 @@ cc_binary(
   name = 'longest_common_subsequence',
   srcs = ['longest_common_subsequence.cc'],
 )
+cc_binary(
+  name = 'subtract_the_product_and_sum_of_digits_of_an_integer',
+  srcs = ['subtract_the_product_and_sum_of_digits_of_an_integer.cc'],
+)
 
 #cc_test(
 #  name = 'my_test',
