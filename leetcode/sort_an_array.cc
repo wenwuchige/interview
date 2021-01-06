@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-//-------------------insertion sort------------------------------------
+// -------------------insertion sort------------------------------------
 size_t findInsertPos(vector<int> &nums, int target) {
   if (nums.empty()) {
     return 0;
@@ -37,10 +37,6 @@ vector<int> InsertSort(vector<int> &nums) {
   for (size_t i = 0; i < nums.size(); ++i) {
     auto insert_pos = findInsertPos(result, nums[i]);
     result.insert(result.begin() + insert_pos, nums[i]);
-    for (auto one : result) {
-      std::cout << one << ",";
-    }
-    std::cout << endl;
   }
   return result;
 }
@@ -80,18 +76,18 @@ vector<int> QuickSort(vector<int> &nums) {
   doQuickSort(nums, 0, nums.size() - 1);
   return nums;
 }
-//-------------------quick sort------------------------------------
+// -------------------quick sort------------------------------------
 vector<int> sortArray(vector<int> &nums) {
   std::vector<int> result;
   return result;
 }
 
-int main() {
-  std::vector<int> input = {-4, 0, 7, 4, 9, -5, -1, 0, -7, -1};
-  // auto result = InsertSort(input);
-  auto result = QuickSort(input);
-  for (size_t i = 0; i < result.size(); ++i) {
-    std::cout << result[i] << " ,";
-  }
-  return 0;
-}
+// int main() {
+//  std::vector<int> input = {-4, 0, 7, 4, 9, -5, -1, 0, -7, -1};
+//  // auto result = InsertSort(input);
+//  auto result = QuickSort(input);
+//  for (size_t i = 0; i < result.size(); ++i) {
+//    std::cout << result[i] << " ,";
+//  }
+//  return 0;
+// }

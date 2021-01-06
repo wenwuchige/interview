@@ -1,4 +1,4 @@
-#include "leetcode/minimum_swap_to_make_strings_equal.cc"
+#include "leetcode/minimum_number_of_removals_to_make_mountain_array.cc"
 #include "third_party/gtest/include/gtest.h"
 
 TEST(minimumSwapTest, minimumSwap) {
@@ -14,4 +14,4 @@ TEST(minimumSwapTest, minimumSwap) {
   s1 = "xxyyxyxyxx";
   s2 = "xyyxyxxxyx";
   ASSERT_EQ(minimumSwap(s1, s2), 4);
-}
+};
