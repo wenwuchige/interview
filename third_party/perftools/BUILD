@@ -1,7 +1,6 @@
 prebuilt_cc_library(
-  name = 'gtest',
-  hdrs = ['//include/*.h'] + ['include/internal/*.h'],
-  deps = ['#pthread']
+  name = 'gperftool',
+  hdrs = ['//include/*.h'],
 )
 
 prebuilt_cc_library(

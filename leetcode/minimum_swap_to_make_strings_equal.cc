@@ -54,10 +54,3 @@ int minimumSwap(string s1, string s2) {
   }
   return minimum;
 }
-
-int main() {
-  string s1, s2;
-  cin >> s1 >> s2;
-  cout << "最小次数：" << minimumSwap(s1, s2) << endl;
-  return 0;
-}
