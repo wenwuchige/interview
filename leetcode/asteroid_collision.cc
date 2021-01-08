@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/asteroid-collision
-// using two stack
+// using stack
 #include <iostream>
 #include <sstream>
 #include <stack>

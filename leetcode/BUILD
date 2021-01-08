@@ -43,7 +43,8 @@ cc_test(
   srcs = [
       'test/test_main.cc',
       'test/minimum_swap_to_make_strings_equal_test.cc',
-      'test/sort_an_array_test.cc'
+      'test/sort_an_array_test.cc',
+      'test/verify_preorder_serialization_of_a_binary_tree_test.cc',
   ],
   deps = [
     '//third_party/gtest:gtest'
