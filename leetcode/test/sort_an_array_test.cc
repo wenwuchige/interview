@@ -1,4 +1,4 @@
-#include "leetcode/sort_an_array.cc"
+#include "leetcode/sort/sort_an_array.cc"
 #include "third_party/gtest/include/gtest.h"
 #include <vector>
 

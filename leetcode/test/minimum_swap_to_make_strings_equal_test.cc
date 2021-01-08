@@ -1,4 +1,4 @@
-#include "leetcode/minimum_swap_to_make_strings_equal.cc"
+#include "leetcode/greedy/minimum_swap_to_make_strings_equal.cc"
 #include "third_party/gtest/include/gtest.h"
 
 TEST(minimumSwapTest, minimumSwap) {

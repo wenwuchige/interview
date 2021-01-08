@@ -1,4 +1,4 @@
-#include "leetcode/verify_preorder_serialization_of_a_binary_tree.cc"
+#include "leetcode/binary_tree/verify_preorder_serialization_of_a_binary_tree.cc"
 #include "third_party/gtest/include/gtest.h"
 #include <vector>
 

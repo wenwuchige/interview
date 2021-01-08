@@ -1,40 +1,40 @@
 cc_binary(
   name = 'minimum_number_of_removals_to_make_mountain_array',
   srcs = [
-      'minimum_number_of_removals_to_make_mountain_array.cc'
+      'dynamic_programing/minimum_number_of_removals_to_make_mountain_array.cc'
   ],
 )
 
 cc_binary(
   name = 'longest_common_subsequence',
   srcs = [
-      'longest_common_subsequence.cc'
+      'dynamic_programing/longest_common_subsequence.cc'
   ],
 )
 cc_binary(
   name = 'subtract_the_product_and_sum_of_digits_of_an_integer',
   srcs = [
-      'subtract_the_product_and_sum_of_digits_of_an_integer.cc'
+      'other/subtract_the_product_and_sum_of_digits_of_an_integer.cc'
   ],
 )
 
 cc_binary(
   name = 'palindromic_substrings',
   srcs = [
-      'palindromic_substrings.cc'
+      'dynamic_programing/palindromic_substrings.cc'
   ],
 )
 cc_binary(
   name = 'asteroid_collision',
   srcs = [
-      'asteroid_collision.cc',
+      'stack/asteroid_collision.cc',
   ],
 )
 
 cc_binary(
   name = 'minimum_insertion_steps_to_make_a_string_palindrome',
   srcs = [
-      'minimum_insertion_steps_to_make_a_string_palindrome.cc',
+      'dynamic_programing/minimum_insertion_steps_to_make_a_string_palindrome.cc',
   ],
 )
 
