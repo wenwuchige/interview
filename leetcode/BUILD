@@ -45,6 +45,7 @@ cc_test(
       'test/minimum_swap_to_make_strings_equal_test.cc',
       'test/sort_an_array_test.cc',
       'test/verify_preorder_serialization_of_a_binary_tree_test.cc',
+      'test/generate_parentheses_test.cc',
   ],
   deps = [
     '//third_party/gtest:gtest'
