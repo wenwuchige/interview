@@ -42,11 +42,12 @@ cc_test(
   name = 'my_test',
   srcs = [
       'test/test_main.cc',
-     # 'test/minimum_swap_to_make_strings_equal_test.cc',
-     # 'test/sort_an_array_test.cc',
-     # 'test/verify_preorder_serialization_of_a_binary_tree_test.cc',
-     # 'test/generate_parentheses_test.cc',
+      'test/minimum_swap_to_make_strings_equal_test.cc',
+      'test/sort_an_array_test.cc',
+      'test/verify_preorder_serialization_of_a_binary_tree_test.cc',
+      'test/generate_parentheses_test.cc',
       'test/add_two_numbers_test.cc',
+      'test/binary_tree_maximum_path_sum_test.cc'
   ],
   deps = [
     '//third_party/gtest:gtest'
