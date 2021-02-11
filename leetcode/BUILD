@@ -49,6 +49,7 @@ cc_test(
       'test/add_two_numbers_test.cc',
       'test/binary_tree_maximum_path_sum_test.cc',
       'test/preorder_inorder_rebuild_binary_tree_test.cc',
+      'test/coin_change_test.cc',
   ],
   deps = [
     '//third_party/gtest:gtest'
