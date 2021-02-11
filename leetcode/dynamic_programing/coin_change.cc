@@ -33,6 +33,7 @@ int dp(vector<int> &coins, int amount) {
     }
   }
   if (!has_solved) {
+    memo[amount] = -1; // 没有解也要记录下来
     return -1;
   }
   memo[amount] = ans;
