@@ -10,5 +10,5 @@ TEST(tmp, coinChange) {
   EXPECT_EQ(coinChange(coins, amount), -1);
   coins = {186, 419, 83, 408};
   amount = 6249;
-  EXPECT_EQ(coinChange(coins, amount), 100);
+  EXPECT_EQ(coinChange(coins, amount), 20);
 }
