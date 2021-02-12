@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/n-queens/
 // 使用回溯算法穷举
+// 其实还有个优化的小技巧，判断对角线是否有皇后时，上对角线的行列之和为常数，下对角线的行列之差为常数
 #include <iostream>
 #include <string>
 #include <vector>
