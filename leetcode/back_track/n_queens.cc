@@ -28,18 +28,17 @@ bool canPut(int N, int row_index, int col_index) {
   }
   //检查对角线上有没有皇后
   int k = 1;
-  while (true) {
-    int left_up_row = row_index - k;
-    int left_up_col = col_index - k;
-    if (left_up_row < 0 || left_up_col < 0) {
-      break;
-    }
-    if (flags[left_up_row][left_up_col]) {
-      return false;
-    }
-    k++;
-  }
-  k = 1;
+  // while (true) {
+  //   int left_up_row = row_index - k;
+  //   int left_up_col = col_index - k;
+  //   if (left_up_row < 0 || left_up_col < 0) {
+  //     break;
+  //   }
+  //   if (flags[left_up_row][left_up_col]) {
+  //     return false;
+  //   }
+  //   k++;
+  // }
   while (true) {
     int right_down_row = row_index + k;
     int right_down_col = col_index + k;
@@ -63,18 +62,18 @@ bool canPut(int N, int row_index, int col_index) {
     }
     k++;
   }
-  k = 1;
-  while (true) {
-    int right_up_row = row_index - k;
-    int right_up_col = row_index + k;
-    if (right_up_row < 0 || right_up_col == N) {
-      break;
-    }
-    if (flags[right_up_row][right_up_col]) {
-      return false;
-    }
-    k++;
-  }
+  // k = 1;
+  // while (true) {
+  //   int right_up_row = row_index - k;
+  //   int right_up_col = row_index + k;
+  //   if (right_up_row < 0 || right_up_col == N) {
+  //     break;
+  //   }
+  //   if (flags[right_up_row][right_up_col]) {
+  //     return false;
+  //   }
+  //   k++;
+  // }
   return true;
 }
 
