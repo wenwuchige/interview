@@ -50,7 +50,8 @@ cc_test(
      # 'test/binary_tree_maximum_path_sum_test.cc',
      # 'test/preorder_inorder_rebuild_binary_tree_test.cc',
      # 'test/coin_change_test.cc',
-      'test/n_queens_test.cc',
+     # 'test/n_queens_test.cc',
+      'test/open_the_lock_test.cc',
   ],
   deps = [
     '//third_party/gtest:gtest'
