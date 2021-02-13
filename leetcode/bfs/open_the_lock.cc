@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-int result = 0;
+static int result = 0;
 set<string> already;
 
 void putUp(string &now, int i) {

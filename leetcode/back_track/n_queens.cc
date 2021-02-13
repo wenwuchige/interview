@@ -6,7 +6,7 @@
 #include <vector>
 
 using namespace std;
-vector<vector<string>> result;
+static vector<vector<string>> result;
 vector<vector<bool>> flags;
 vector<string> tmp;
 
