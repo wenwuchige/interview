@@ -53,7 +53,8 @@ cc_test(
     # 'test/n_queens_test.cc',
     # 'test/open_the_lock_test.cc',
     # 'test/minimum_depth_of_binary_tree_test.cc',
-      'test/minimum_window_substring_test.cc',
+    # 'test/minimum_window_substring_test.cc',
+      'test/permutation_in_string_test.cc',
   ],
   deps = [
     '//third_party/gtest:gtest'
