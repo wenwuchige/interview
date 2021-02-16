@@ -52,7 +52,8 @@ cc_test(
     # 'test/coin_change_test.cc',
     # 'test/n_queens_test.cc',
     # 'test/open_the_lock_test.cc',
-     'test/minimum_depth_of_binary_tree_test.cc',
+    # 'test/minimum_depth_of_binary_tree_test.cc',
+      'test/minimum_window_substring_test.cc',
   ],
   deps = [
     '//third_party/gtest:gtest'
